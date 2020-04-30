@@ -4,7 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "wake": "node wake.js"
     },
     "repository": {
         "type": "git",
@@ -19,6 +20,7 @@
     "homepage": "https://github.com/ejekanshjain/GoogleCloudReadySpeedrun2020#readme",
     "dependencies": {
         "cors": "^2.8.5",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.0"
     }
 }

@@ -8,4 +8,4 @@ gsutil mb -p $PROJECT_ID gs://$BUCKET_NAME
 gcloud functions deploy helloWorld \
   --stage-bucket $BUCKET_NAME \
   --trigger-topic hello_world \
-  --runtime nodejs8
+  --runtime nodejs6
